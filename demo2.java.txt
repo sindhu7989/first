@@ -11,5 +11,6 @@ public class OptionalExample {
 
         // Using ifPresent with lambda
         optional.ifPresent(System.out::println);
+optional.ifPresent(System.out::println);
     }
 }
