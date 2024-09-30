@@ -1,0 +1,15 @@
+import java.util.Optional;
+
+public class OptionalExample {
+    public static void main(String[] args) {
+        Optional<String> optional = Optional.of("Hello, Java 8!");
+
+        // Check if value is present
+        if (optional.isPresent()) {
+            System.out.println(optional.get()); // Output: Hello, Java 8!
+        }
+
+        // Using ifPresent with lambda
+        optional.ifPresent(System.out::println);
+    }
+}
