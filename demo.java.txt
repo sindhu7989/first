@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class LambdaExample {
+    public static void main(String[] args) {
+        List<String> list = Arrays.asList("apple", "banana", "cherry", "date");
+
+        // Using lambda expression to iterate over a list
+        list.forEach(fruit -> System.out.println(fruit));
+    }
+}
