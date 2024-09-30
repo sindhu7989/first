@@ -11,6 +11,7 @@ public class StreamExample {
                                            .filter(n -> n % 2 == 0)
                                            .collect(Collectors.toList());
 
-        System.out.println(evenNumbers); // Output: [2, 4, 6, 8]
+        System.out.println(evenNumbers);
+System.out.println(evenNumbers); // Output: [2, 4, 6, 8]
     }
 }
